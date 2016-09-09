@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Farmers Only.com</title>
+</head>
+<!--<style>
+    fieldset {
+        background:lightyellow;
+        border: 10px solid yellow;
+        margin-bottom: 10px;
+        width: 720px;
+    }
+    label {
+        width: 180px;
+        display: inline-block;
+    }
+</style>-->
+<body>
+  <header>
+      <h1 align="center">Please Enter Your Details For Our Dating Website!</h1>
+  </header>
+  <section>
+      <fieldset>
+          <legend>Your Face</legend>
+          <label for="avatar">Your image:</label>
+          <input type="file" id="avatar" required>
+          <div>
+              <label for="preview">Image preview:</label>
+              <img id="preview">
+          </div>
+      </fieldset>
+      <fieldset>
+          <legend>Your General Details</legend>
+          <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" required>
+          </div>
+          <div>
+              <label for="gender">Gender:</label><span id="gender"></span>
+              <label for="male">Male</label>
+              <input type="radio" id="male">
+              <label for="female">Female</label>
+              <input type="radio" id="female">
+          </div>
+          <div>
+              <label for="age">Age:</label>
+              <input type="number" id="age" required>
+          </div>
+          <div>
+              <label for="date of birth">Date of Birth:</label>
+              <input type="date" id="date of birth" required>
+          <div>
+              <label for="favorite color">Favorite Color:</label>
+              <input type="color" id="favorite color" required>
+          </div>
+          <div>
+              <label for="country">Country:</label>
+                <select id="country" required>
+                  <option value="United States">United States</option>
+                  <option value="Mexico">Mexico</option>
+                  <option value="Canada">Canada</option>
+                  <option value="England">England</option>
+                  <option value="Nigeria">Nigeria</option>
+                  <option value="Other">Other...</option>
+                </select>
+          </div>
+      </fieldset>
+      <fieldset>
+          <legend>Your Indicators</legend>
+          <div>
+              <label for="height">Height:</label><span id="height"></span>
+              <label for="heightbar">Short</label>
+              <input type="range" min="0" max="100" id="heightbar" required>
+              <label for="heightbar">Tall</label>
+          </div>
+          <div>
+              <label for="salary">Salary:</label><span id="salary"></span>
+              <label for="salarybar">Poor</label>
+              <input type="range" min="0" max="100" id="salarybar" required>
+              <label for="salarybar">Rich</label>
+          </div>
+      </fieldset>
+      <fieldset>
+          <legend>Your Contact Information</legend>
+          <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" required>
+          </div>
+          <div>
+              <label for="tel">Mobile:</label>
+              <input type="tel" id="tel" required>
+          </div>
+          <div>
+              <label for="address">Address:</label><span id="address"></span>
+              <textarea></textarea>
+          </div>
+          <div>
+              <label for="method of contact">Method to contact you</label><span id="method of contact"></span>
+              <input type="checkbox" id="email2">
+              <label for="email2">Email</label>
+              <input type="checkbox" id="whatsapp">
+              <label for="whatsapp">Whatsapp</label>
+              <input type="checkbox" id="in-app-chat">
+              <label for="in-app-chat">In-app-chat</label>
+          </div>
+      </fieldset>
+              <input type="submit">
+  </section>
+</body>
+</html>
